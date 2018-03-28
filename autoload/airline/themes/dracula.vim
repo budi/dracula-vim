@@ -65,8 +65,8 @@ let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#dracula#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 " Warning info
-let s:WARNING = [ s:guiBlack, s:gui03, s:ctermBlack, s:cterm03 ]
-let s:ERROR = [ s:guiWhite, s:gui05, s:ctermWhite, s:cterm05 ]
+let s:WARNING = [ s:gui03, s:guiBlack, s:cterm03, s:ctermBlack ]
+let s:ERROR = [ s:gui05, s:guiBlack, s:cterm05, s:ctermBlack ]
 
 let g:airline#themes#dracula#palette.normal.airline_warning = s:WARNING
 let g:airline#themes#dracula#palette.insert.airline_warning = s:WARNING
